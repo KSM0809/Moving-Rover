@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("brown.png");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:groove;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+h4
+{
+	color: white !important;
+	font-family: 'Orbitron', sans-serif !important;
+}
+
+h1{
+	font-family: 'Orbitron', sans-serif !important;
+	color: white !important;
+}
+
+#note{
+	color:darkseagreen;
+}
+
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Rover on Mars</title>
+</head>
+<body onload="add();">
+
+<center>
+<h1>Moving Rover On Mars</h1>
+<canvas id="myCanvas" width="800" height="600"></canvas>
+<h4>
+	<b id="note">NOTE:</b> IF ROVER IS NOT VISIBLE PRESS ANY ARROW KEY
+</h4>
+</center>
+
+<script src="main.js">
+</script>
+</body>
+</html>
